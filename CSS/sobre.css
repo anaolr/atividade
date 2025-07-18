@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.default {
+    background-color: #eeeeee;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.menu {
+    background-color: #004080;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    display: flex;  /* Ativa o modelo Flexbox */
+    justify-content: space-between;  /* Espaça os itens à esquerda e à direita */
+    align-items: center;  /* Centraliza os itens verticalmente */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.rodape{
+    background-color:#004080;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.corpo{
+    background-color: white;
+    width: 800px;
+    height: 750px;
+    top: 70px;
+    position: absolute;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.left-item {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.right-items {
+    display: flex;  /* Ativa o Flexbox para os itens à direita */
+    justify-content: flex-end;  /* Alinha os itens à direita */
+}
+
+.item {
+    margin: 0 15px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+h3{
+    color: #004080;
+    font-size: 20px;
+    padding: 5%;
+}
+p{
+   padding: 4%;
+   font-size: 18PX;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.curso {
+    background-color:#eeeeee;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.contato {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.sobre{
+    width: 100%;
+    height: 40%;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.texto{
+    background-color: #eeeeee;
+    height: 45%;
+    width: 40%;
+    top: 50%;
+    position: absolute
+}
+.foto{
+    background-image: url("../IMAGENS/imagem2.jpeg");
+    background-size: cover;
+
+    height: 45%;
+    width: 50%;
+    top: 50%;
+    right: 30px;
+    position: absolute
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
